@@ -14,7 +14,7 @@ def index():
     return str(token)
 
 def readStorage(name):
-    f = open(pwd + name, 'r')
+    f = open(name, 'r')
     set = f.read()
     f.close()
     return set
