@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-token = 0# randint(100000, 999999)
+token = randint(100000, 999999)
 
 pwd = os.getcwd()
 dir = os.listdir(pwd)
